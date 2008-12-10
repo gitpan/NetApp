@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Snapshot
+END
+Delta.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Snapshot/Delta.pm
+END
+Schedule.pm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Snapshot/Schedule.pm
+END
+Delta.pod
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Snapshot/Delta.pod
+END
+Schedule.pod
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Snapshot/Schedule.pod
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro
+END
+MANIFEST
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/MANIFEST
+END
+Build.PL
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/Build.PL
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/README
+END

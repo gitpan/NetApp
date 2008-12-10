@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Aggregate
+END
+Plex.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Aggregate/Plex.pm
+END
+RAIDGroup.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Aggregate/RAIDGroup.pm
+END
+Plex.pod
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Aggregate/Plex.pod
+END
+RAIDGroup.pod
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnrepos/perl5/!svn/ver/413/NetApp/releases/1.1.1/distro/lib/NetApp/Aggregate/RAIDGroup.pod
+END
