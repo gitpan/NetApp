@@ -1,12 +1,12 @@
 #
-# $Revision: 411 $
+# $Revision: 418 $
 #
 
 package NetApp;
 
 # This is the ONLY file that doesn't use the SVN Revision tag
-# Makefile.PL and/or Build.PL pull the distro version from here
-use version; $VERSION = qv('1.1.1');
+# Build.PL pulls the distro version from here
+use version; $VERSION = qv('1.1.2');
 
 use strict;
 use warnings;

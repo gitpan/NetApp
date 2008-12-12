@@ -36,27 +36,31 @@ our @filer_args	= ();
 # 'ssh' or 'telnet', and $extra is either the ssh identity file
 # (optional) or the telnet password.  If the ssh_identity file is NOT
 # specified in these entries, then a default must have been specified
-# above.  If the protocol is not given, then it default to 'ssh'.
+# above.  If the protocol is not given, then it defaults to 'ssh'.
 
-foreach my $entry ( split /\s+/, $ENV{NETAPP_TEST_FILERS} ) {
+if ( $ENV{NETAPP_TEST_FILERS} ) {
 
-    my ($hostname,$protocol,$extra) = split /:/, $entry, 3;
+    foreach my $entry ( split /\s+/, $ENV{NETAPP_TEST_FILERS} ) {
 
-    $protocol		||= 'ssh';
+        my ($hostname,$protocol,$extra) = split /:/, $entry, 3;
 
-    my $filer_arg	= {
-        hostname	=> $hostname,
-        protocol	=> $protocol,
-    };
+        $protocol		||= 'ssh';
 
-    if ( $protocol eq 'ssh' ) {
-        $filer_arg->{ssh_command} = $ssh_command;
-        $filer_arg->{ssh_identity} = $extra || $ssh_identity;
-    } elsif ( $extra ) {
-        $filer_arg->{telnet_password} = $extra;
+        my $filer_arg	= {
+            hostname	=> $hostname,
+            protocol	=> $protocol,
+        };
+
+        if ( $protocol eq 'ssh' ) {
+            $filer_arg->{ssh_command} = $ssh_command;
+            $filer_arg->{ssh_identity} = $extra || $ssh_identity;
+        } elsif ( $extra ) {
+            $filer_arg->{telnet_password} = $extra;
+        }
+
+        push @filer_args, $filer_arg;
+
     }
-
-    push @filer_args, $filer_arg;
 
 }
 

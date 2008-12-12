@@ -15,6 +15,7 @@ my $builder = Module::Build->new(
         'Memoize'		=> 0,
         'Net::Telnet'		=> 0,
         'Clone'			=> 0,
+        'Test::Exception'	=> 0,
     },
     add_to_cleanup      	=> [ 'NetApp-*' ],
     recursive_test_files	=> 1,

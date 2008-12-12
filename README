@@ -77,7 +77,9 @@ the file:
     ./t/lib/NetApp/Test.pm
 
 Please see that file for examples and documentation on how to
-customize the configuration.
+customize the configuration.  To summarize, you can either hack that
+file, or you can export a number of environment variables to control
+the test externally (this is what the author does, for example).
 
 DEPENDENCIES
 

@@ -1,7 +1,7 @@
 
 =head1 NAME
 
-NetApp::Aggregate::Raidgroup -- OO Class for representing NetApp raidgroups
+NetApp::Aggregate::RAIDGroup -- OO Class for representing NetApp raidgroups
 
 =head1 SYNOPSIS
 

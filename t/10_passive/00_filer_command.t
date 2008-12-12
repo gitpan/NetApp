@@ -7,6 +7,13 @@ use lib 'blib/lib';
 use lib 't/lib';
 use NetApp::Test;
 
+BEGIN {
+    if ( not @NetApp::Test::filer_args ) {
+        print "1..0 # Skip: No test filers defined\n";
+        exit 0;
+    }
+}
+
 use Test::More qw( no_plan );
 use Test::Exception;
 use Data::Dumper;

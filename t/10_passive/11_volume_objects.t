@@ -7,6 +7,13 @@ use lib 'blib/lib';
 use lib 't/lib';
 use NetApp::Test;
 
+BEGIN {
+    if ( not @NetApp::Test::filer_args ) {
+        print "1..0 # Skip: No test filers defined\n";
+        exit 0;
+    }
+}
+
 use Test::More qw( no_plan );
 use Test::Exception;
 use Data::Dumper;
@@ -15,10 +22,7 @@ use NetApp::Filer;
 use NetApp::Aggregate;
 use NetApp::Volume;
 
-my @filer_args		= @NetApp::Test::filer_args;
-ok( @filer_args,	'Valid filer args array in NetApp::Test' );
-
-foreach my $filer_args ( @filer_args ) {
+foreach my $filer_args ( @NetApp::Test::filer_args ) {
 
     ok( ref $filer_args eq 'HASH',
         'filer_args entry is a HASH ref' );
@@ -32,7 +36,7 @@ foreach my $filer_args ( @filer_args ) {
     ok( @volume_names,	"filer->get_volume_names" );
 
     my @volumes		= $filer->get_volumes;
-    ok( @volumes,		"filer->get_volumes" );
+    ok( @volumes,	"filer->get_volumes" );
 
     foreach my $volume ( @volumes ) {
 

@@ -1,10 +1,10 @@
 #
-# $Id: Volume.pm 369 2008-10-03 11:49:03Z pmoore $
+# $Id: Volume.pm 419 2008-12-12 16:58:54Z pmoore $
 #
 
 package NetApp::Volume;
 
-use version; $VERSION = version->new(qw$Revision: 369 $);
+use version; $VERSION = version->new(qw$Revision: 419 $);
 
 use strict;
 use warnings;
@@ -201,7 +201,7 @@ use NetApp::Volume::Source;
         my $language	= "";
 
         while ( my $line = shift @stdout ) {
-            if ( $line =~ /Volume lanuage is (\S+)/ ) {
+            if ( $line =~ /Volume language is (\S+)/ ) {
                 $language	= $1;
             }
         }
