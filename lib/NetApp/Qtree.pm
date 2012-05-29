@@ -1,10 +1,5 @@
-#
-# $Id: Qtree.pm 334 2008-08-15 22:21:39Z pmoore $
-#
 
 package NetApp::Qtree;
-
-use version; $VERSION = version->new(qw$Revision: 334 $);
 
 use strict;
 use warnings;

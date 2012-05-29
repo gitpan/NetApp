@@ -1,10 +1,5 @@
-#
-# $Id: Volume.pm 419 2008-12-12 16:58:54Z pmoore $
-#
 
 package NetApp::Volume;
-
-use version; $VERSION = version->new(qw$Revision: 419 $);
 
 use strict;
 use warnings;

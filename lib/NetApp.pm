@@ -1,12 +1,8 @@
-#
-# $Revision: 418 $
-#
 
 package NetApp;
 
-# This is the ONLY file that doesn't use the SVN Revision tag
-# Build.PL pulls the distro version from here
-use version; $VERSION = qv('1.1.2');
+our $VERSION = '2.002';
+$VERSION = eval $VERSION;  ##  no critic: StringyEval
 
 use strict;
 use warnings;

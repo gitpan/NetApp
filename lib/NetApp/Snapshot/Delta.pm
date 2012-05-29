@@ -1,10 +1,5 @@
-#
-# $Id: Snapmirror.pm 203 2008-06-20 18:00:43Z pmoore $
-#
 
 package NetApp::Snapshot::Delta;
-
-use version; $VERSION = version->new(qw$Revision: 203 $);
 
 use strict;
 use warnings;

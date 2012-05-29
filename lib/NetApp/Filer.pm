@@ -1,10 +1,5 @@
 
-# $Id: Filer.pm 410 2008-12-10 02:31:24Z pmoore $
-#
-
 package NetApp::Filer;
-
-use version; our $VERSION = version->new(qw$Revision: 410 $);
 
 use strict;
 use warnings;

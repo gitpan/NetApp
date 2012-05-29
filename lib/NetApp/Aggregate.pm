@@ -1,10 +1,5 @@
-#
-# $Id: Aggregate.pm 332 2008-08-14 21:00:17Z pmoore $
-#
 
 package NetApp::Aggregate;
-
-use version; $VERSION = version->new(qw$Revision: 332 $);
 
 use strict;
 use warnings;

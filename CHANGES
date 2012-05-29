@@ -1,5 +1,14 @@
 
-$Id: $
+Release 2.002
+
+        After stagnating for several years, I have once again taken
+        over responsibility for this module, and expect to be
+        enhancing it in the coming months.
+
+        The version syntax has been changed, to move away from
+        v-strings, and Build.PL converted to Makefile.PL.
+
+        Otherwise, the code is identical to 1.1.2
 
 Release 1.1.2
 

@@ -1,10 +1,5 @@
-#
-# $Id: Qtree.pm 275 2008-07-25 18:50:49Z pmoore $
-#
 
 package NetApp::Snapmirror;
-
-use version; $VERSION = version->new(qw$Revision: 275 $);
 
 use strict;
 use warnings;

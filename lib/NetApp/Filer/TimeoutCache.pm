@@ -1,6 +1,3 @@
-#
-# $Id: $
-#
 
 package NetApp::Filer::TimeoutCache;
 
@@ -9,8 +6,6 @@ use warnings;
 use English;
 use Carp;
 use Params::Validate qw( :all );
-
-use version; our $VERSION = version->new(qw$Revision: 334 $);
 
 sub TIEHASH {
 
