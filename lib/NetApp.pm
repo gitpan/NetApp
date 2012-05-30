@@ -1,7 +1,7 @@
 
 package NetApp;
 
-our $VERSION = '2.002';
+our $VERSION = '500.001';
 $VERSION = eval $VERSION;  ##  no critic: StringyEval
 
 use strict;
