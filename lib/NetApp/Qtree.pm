@@ -1,6 +1,9 @@
 
 package NetApp::Qtree;
 
+our $VERSION = '500.002';
+$VERSION = eval $VERSION;  ##  no critic: StringyEval
+
 use strict;
 use warnings;
 use English;

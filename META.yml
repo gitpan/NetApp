@@ -27,4 +27,4 @@ requires:
   Params::Validate: 0
   Regexp::Common: 0
   perl: 5.10.0
-version: 500.001
+version: 500.002
